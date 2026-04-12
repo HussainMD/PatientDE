@@ -5,7 +5,7 @@
   ## Components
 
   - **generate_data.py**: Generates mock patient and visit data using Faker and saves to SQLite database `healthcare.db`.
-  - **upload_to_snowflake.py**: Uploads data from SQLite to Snowflake database `HEALTHCARE_DB` in schema `RAW`.
+  - **upload_to_snowflake.py**: Uploads data from SQLite to Snowflake database `PATEINTS_SAMPLE` in schema `PUBLIC`.
   - **dbt/**: dbt project for data transformations.
     - `src_healthcare.yml`: Defines source tables.
     - `stg_patients.sql`: Staging model for patients with type casting and cleanup.

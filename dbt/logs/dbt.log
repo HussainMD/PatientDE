@@ -628,3 +628,29 @@ Parsing Error
 [0m20:27:51.840453 [debug] [MainThread]: Command `dbt run` failed at 20:27:51.840383 after 0.06 seconds
 [0m20:27:51.840655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a8bd940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a88d6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a72e9c0>]}
 [0m20:27:51.840862 [debug] [MainThread]: Flushing usage events
+[0m22:52:34.712934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083738c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10addb110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10addafd0>]}
+
+
+============================== 22:52:34.714682 | c7d3aca2-200d-4a7d-aaac-00533099d93f ==============================
+[0m22:52:34.714682 [info ] [MainThread]: Running with dbt=1.8.0
+[0m22:52:34.715034 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_format': 'default', 'static_parser': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'printer_width': '80', 'warn_error': 'None', 'introspect': 'True', 'partial_parse': 'True', 'profiles_dir': '/Users/zainabh/PatientDE/dbt', 'fail_fast': 'False', 'no_print': 'None', 'use_colors': 'True', 'log_cache_events': 'False', 'version_check': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'write_json': 'True', 'target_path': 'None', 'log_path': '/Users/zainabh/PatientDE/dbt/logs'}
+[0m22:52:42.115034 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c7d3aca2-200d-4a7d-aaac-00533099d93f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac07820>]}
+[0m22:52:42.133439 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:52:42.134450 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:52:42.178264 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 7.49714, "process_user_time": 0.721961, "process_kernel_time": 0.138571, "process_mem_max_rss": "124764160", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m22:52:42.178793 [debug] [MainThread]: Command `cli deps` succeeded at 22:52:42.178681 after 7.50 seconds
+[0m22:52:42.179123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aea7570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10af39bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac62f50>]}
+[0m22:52:42.179398 [debug] [MainThread]: Flushing usage events
+[0m23:06:17.872482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bccf8c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7b7110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7b6fd0>]}
+
+
+============================== 23:06:17.874131 | 6ccc7488-3649-4818-a395-9144fe782122 ==============================
+[0m23:06:17.874131 [info ] [MainThread]: Running with dbt=1.8.0
+[0m23:06:17.874472 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'invocation_command': 'dbt ', 'introspect': 'True', 'static_parser': 'True', 'write_json': 'True', 'log_path': '/Users/zainabh/PatientDE/dbt/logs', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'version_check': 'True', 'debug': 'False', 'profiles_dir': '/Users/zainabh/PatientDE/dbt', 'fail_fast': 'False', 'target_path': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'no_print': 'None', 'log_format': 'default', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'quiet': 'False'}
+[0m23:06:17.929901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6ccc7488-3649-4818-a395-9144fe782122', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e5e3820>]}
+[0m23:06:17.937465 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m23:06:17.938069 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m23:06:17.940310 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.09997596, "process_user_time": 0.666832, "process_kernel_time": 0.099272, "process_mem_max_rss": "127303680", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:06:17.940609 [debug] [MainThread]: Command `cli deps` succeeded at 23:06:17.940535 after 0.10 seconds
+[0m23:06:17.940807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e883570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e915bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e63ef50>]}
+[0m23:06:17.940984 [debug] [MainThread]: Flushing usage events
